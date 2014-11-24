@@ -5,11 +5,11 @@ $primary-color: black;
 $text-color: black;
 
 // Reset
-@import "active_admin/mixins/reset";
+@import "active_admin/mixins/reset.css";
 @include global-reset;
 
 // Partials
-@import "active_admin/typography";
+@import "active_admin/typography.css";
 
 body {
   font-family: Helvetica, Arial, sans-serif;
